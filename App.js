@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 const heading = React.createElement('h1',{id:"heading"},"Namaste React from React!");
 
@@ -21,7 +23,7 @@ If anything is present inside the root it will replace it all and append the ele
 
 
  */
-// root.render(heading);
+root.render(heading);
 
 
 // Nested Structure in React
